@@ -8,6 +8,10 @@ authors = ["Teogenes <teogenes@outlook.com>"]
 python = "^3.9"
 loguru = "^0.6.0"
 pytest-cov = "^3.0.0"
+pylint = "^2.15.3"
+black = "^22.8.0"
+flake8 = "^5.0.4"
+pre-commit = "^2.20.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
