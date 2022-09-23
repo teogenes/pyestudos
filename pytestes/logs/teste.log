@@ -1,0 +1,44 @@
+INFO :: 2022-09-22 16:40:20 :: Info :: log.py-43
+WARNING :: 2022-09-22 16:40:20 :: Warn :: log.py-44
+ERROR :: 2022-09-22 16:40:20 :: Erro :: log.py-45
+FINALIZADO :: 2022-09-22 16:40:20 :: Finalozado log level customizado :: log.py-47
+ERROR :: 2022-09-22 16:40:20 :: What?! :: log.py-58
+Traceback (most recent call last):
+
+  File "/home/teogenes/PYPY/pytestes/pytestes/log.py", line 59, in <module>
+    nested(0)
+    └ <function nested at 0x7f03baf58e50>
+
+> File "/home/teogenes/PYPY/pytestes/pytestes/log.py", line 56, in nested
+    func(5, num_zero)
+    │       └ 0
+    └ <function func at 0x7f03baf58dc0>
+
+  File "/home/teogenes/PYPY/pytestes/pytestes/log.py", line 51, in func
+    return num_um / num_dois
+           │        └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+INFO :: 2022-09-22 16:40:54 :: Info :: log.py-43
+WARNING :: 2022-09-22 16:40:54 :: Warn :: log.py-44
+ERROR :: 2022-09-22 16:40:54 :: Erro :: log.py-45
+FINALIZADO :: 2022-09-22 16:40:54 :: Finalozado log level customizado :: log.py-47
+ERROR :: 2022-09-22 16:40:54 :: What?! :: log.py-58
+Traceback (most recent call last):
+
+  File "/home/teogenes/PYPY/pytestes/pytestes/log.py", line 59, in <module>
+    nested(0)
+    └ <function nested at 0x7f4055c33e50>
+
+> File "/home/teogenes/PYPY/pytestes/pytestes/log.py", line 56, in nested
+    func(5, num_zero)
+    │       └ 0
+    └ <function func at 0x7f4055c33dc0>
+
+  File "/home/teogenes/PYPY/pytestes/pytestes/log.py", line 51, in func
+    return num_um / num_dois
+           │        └ 0
+           └ 5
+
+ZeroDivisionError: division by zero

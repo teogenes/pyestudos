@@ -1,0 +1,9 @@
+[run]
+source = ./pytestes
+
+[report]
+exclude_lines =
+    def __str__
+
+[html]
+directory = relatorio_html
